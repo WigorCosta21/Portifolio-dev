@@ -1,0 +1,19 @@
+.title-sm {
+    font: var(--asap-title-sm);
+    color: var(--gray-100);
+}
+
+.title-md {
+    color: var(--gray-100);
+    font: var(--asap-title-md);
+}
+
+.text-sm {
+    font: var(--maven-pro-text-sm);
+    color: var(--gray-200);
+}
+
+.subtitle {
+    color: var(--color-red);
+    font: var(--inconsolata-subtitle);
+}

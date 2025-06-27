@@ -9,14 +9,10 @@
 }
 
 .projects-section__subtitle {
-    color: var(--color-red);
-    font: var(--inconsolata-subtitle);
     margin-bottom: 0.5rem;
 }
 
 .projects-section__title {
-    color: var(--gray-100);
-    font: var(--asap-title-md);
     margin-bottom: 3.5rem;
 }
 
@@ -45,12 +41,5 @@
 }
 
 .project-card__title {
-    font: var(--asap-title-sm);
-    color: var(--gray-100);
     margin-bottom: 0.5rem;
-}
-
-.project-card__description {
-    font: var(--maven-pro-text-sm);
-    color: var(--gray-200);
 }

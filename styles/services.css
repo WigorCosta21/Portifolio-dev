@@ -1,0 +1,29 @@
+.services {
+    background-color: var(--gray-600);
+    padding: 5.5rem 0 7.5rem;
+}
+
+.services__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.services_card-item {
+    width: 280px;
+    border: 2px solid var(--gray-500);
+    border-radius: 12px;
+    padding: 1.25rem;
+}
+
+.services-card__image {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1.25rem;
+}
+
+.services-card__title {
+    margin-bottom: 0.5rem;
+}
