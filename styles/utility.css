@@ -13,6 +13,11 @@
     color: var(--gray-200);
 }
 
+.text-md {
+    font: var(--maven-pro-text-md);
+    color: var(--gray-200);
+}
+
 .subtitle {
     color: var(--color-red);
     font: var(--inconsolata-subtitle);
