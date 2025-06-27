@@ -1,0 +1,56 @@
+.projects-section {
+    padding: 4.5rem 0 9rem;
+    background-color: #16181D;
+}
+
+.projects-section__subtitle,
+.projects-section__title {
+    text-align: center;
+}
+
+.projects-section__subtitle {
+    color: var(--color-red);
+    font: var(--inconsolata-subtitle);
+    margin-bottom: 0.5rem;
+}
+
+.projects-section__title {
+    color: var(--gray-100);
+    font: var(--asap-title-md);
+    margin-bottom: 3.5rem;
+}
+
+.projects-section__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.project-card {
+    background-color: var(--gray-400);
+    padding: 0.75rem 0.75rem 1rem;
+    border-radius: 12px;
+    border: 1.5px solid transparent;
+    transition: all 0.5s;
+}
+
+.project-card:hover {
+    border-color: var(--gray-300);
+}
+
+.project-card__image {
+    max-width: 306px;
+    border-radius: 8px;
+    margin-bottom: 1.25rem;
+}
+
+.project-card__title {
+    font: var(--asap-title-sm);
+    color: var(--gray-100);
+    margin-bottom: 0.5rem;
+}
+
+.project-card__description {
+    font: var(--maven-pro-text-sm);
+    color: var(--gray-200);
+}

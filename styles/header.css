@@ -86,7 +86,7 @@
 
 .tech-stack__label {
     color: var(--gray-200);
-    font-size: var(--maven-pro-text-md);
+    font: var(--maven-pro-text-md);
 }
 
 .scroll-indicator {

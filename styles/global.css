@@ -31,3 +31,18 @@
     --maven-pro-text-md: 400 1rem/140% var(--font-family-maven-pro);
     --maven-pro-text-sm: 400 0.875rem/140% var(--font-family-maven-pro);
 }
+
+.project-card__image {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
+}
