@@ -46,3 +46,22 @@ a {
     width: 100%;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1040px) {
+    .container {
+        padding: 0 1.25rem;
+    }
+}
+
+@media (max-width: 640px) {
+    :root {
+        --asap-title-lg: 800 2.5rem/120% var(--font-family-asap);
+        --asap-title-md: 800 1rem/120% var(--font-family-asap);
+        --asap-title-sm: 800 0.75rem/120% var(--font-family-asap);
+
+        --inconsolata-subtitle: 400 0.875rem/120% var(--font-family-inconsolata);
+
+        --maven-pro-text-md: 400 0.8125rem/140% var(--font-family-maven-pro);
+        --maven-pro-text-sm: 400 0.75rem/140% var(--font-family-maven-pro);
+    }
+}

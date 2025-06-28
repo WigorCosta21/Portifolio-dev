@@ -4,8 +4,6 @@
 }
 
 .services__card {
-    display: flex;
-    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -26,4 +24,18 @@
 
 .services-card__title {
     margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 640px) {
+    .services {
+        padding: 2.5rem 0;
+    }
+
+    .services__card {
+        flex-direction: column;
+    }
+
+    .services_card-item {
+        width: 100%;
+    }
 }

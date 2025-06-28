@@ -22,3 +22,8 @@
     color: var(--color-red);
     font: var(--inconsolata-subtitle);
 }
+
+.flex {
+    display: flex;
+    align-items: center;
+}

@@ -43,3 +43,25 @@
 .project-card__title {
     margin-bottom: 0.5rem;
 }
+
+@media screen and (max-width: 940px) {
+    .projects-section__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .projects-section__cards {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-section {
+        padding: 2.5rem 0;
+    }
+
+    .project-card__image {
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+}
